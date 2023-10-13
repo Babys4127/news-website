@@ -1,0 +1,36 @@
+body{
+    margin: 5%;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgb(209, 201, 201);
+
+}
+button:hover{
+    background-color: gray;
+}
+
+#clearbtn{
+  width: 412px;
+}
+#display{
+    width: 405px;
+    height: 50px;
+    border: 1px solid rgb(199, 188, 188);
+    font-size: 30px;
+    
+}
+@media(max-width:460px){
+button{
+width:70px
+}  
+#display{
+width:288px;
+
+}
+#clearbtn{
+width: 292px;
+}
+}
+
